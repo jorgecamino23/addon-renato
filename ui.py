@@ -42,8 +42,8 @@ def clear():
 def image_phone():
     bpy.context.scene.render.resolution_x = 1080
     bpy.context.scene.render.resolution_y = 1920
-    bpy.context.scene.render.pixel_aspect_x = 9
-    bpy.context.scene.render.pixel_aspect_y = 16
+    bpy.context.scene.render.pixel_aspect_x = 1
+    bpy.context.scene.render.pixel_aspect_y = 1
     bpy.context.scene.render.image_settings.file_format = 'PNG'
     bpy.context.scene.render.image_settings.color_mode = 'RGBA'
     bpy.context.scene.render.image_settings.compression = 100
@@ -51,8 +51,8 @@ def image_phone():
 def image_fullhd():
     bpy.context.scene.render.resolution_x = 1920
     bpy.context.scene.render.resolution_y = 1080
-    bpy.context.scene.render.pixel_aspect_x = 16
-    bpy.context.scene.render.pixel_aspect_y = 9
+    bpy.context.scene.render.pixel_aspect_x = 1
+    bpy.context.scene.render.pixel_aspect_y = 1
     bpy.context.scene.render.image_settings.file_format = 'PNG'
     bpy.context.scene.render.image_settings.color_mode = 'RGBA'
     bpy.context.scene.render.image_settings.compression = 100
@@ -60,8 +60,8 @@ def image_fullhd():
 def image_4k():
     bpy.context.scene.render.resolution_x = 3840
     bpy.context.scene.render.resolution_y = 2160
-    bpy.context.scene.render.pixel_aspect_x = 16
-    bpy.context.scene.render.pixel_aspect_y = 9
+    bpy.context.scene.render.pixel_aspect_x = 1
+    bpy.context.scene.render.pixel_aspect_y = 1
     bpy.context.scene.render.image_settings.file_format = 'PNG'
     bpy.context.scene.render.image_settings.color_mode = 'RGBA'
     bpy.context.scene.render.image_settings.compression = 100
@@ -78,8 +78,8 @@ def image_a4():
 def video_fullhd():
     bpy.context.scene.render.resolution_x = 1920
     bpy.context.scene.render.resolution_y = 1080
-    bpy.context.scene.render.pixel_aspect_x = 16
-    bpy.context.scene.render.pixel_aspect_y = 9
+    bpy.context.scene.render.pixel_aspect_x = 1
+    bpy.context.scene.render.pixel_aspect_y = 1
     bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
     bpy.context.scene.render.ffmpeg.format = 'MPEG4'
     bpy.context.scene.render.image_settings.color_mode = 'RGB'
@@ -88,8 +88,8 @@ def video_fullhd():
 def video_4k():
     bpy.context.scene.render.resolution_x = 3840
     bpy.context.scene.render.resolution_y = 2160
-    bpy.context.scene.render.pixel_aspect_x = 16
-    bpy.context.scene.render.pixel_aspect_y = 9
+    bpy.context.scene.render.pixel_aspect_x = 1
+    bpy.context.scene.render.pixel_aspect_y = 1
     bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
     bpy.context.scene.render.ffmpeg.format = 'MPEG4'
     bpy.context.scene.render.image_settings.color_mode = 'RGB'
@@ -98,8 +98,8 @@ def video_4k():
 def video_8k():
     bpy.context.scene.render.resolution_x = 7680
     bpy.context.scene.render.resolution_y = 4320
-    bpy.context.scene.render.pixel_aspect_x = 16
-    bpy.context.scene.render.pixel_aspect_y = 9
+    bpy.context.scene.render.pixel_aspect_x = 1
+    bpy.context.scene.render.pixel_aspect_y = 1
     bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
     bpy.context.scene.render.ffmpeg.format = 'MPEG4'
     bpy.context.scene.render.image_settings.color_mode = 'RGB'
