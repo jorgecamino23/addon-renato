@@ -5,7 +5,7 @@ bl_info = {
         "version": (1, 0),
         "blender": (3, 5, 0),
         "location": "3D View > Side Panel > Jorge",
-        "warning": "", # used for warning icon and text in add-ons panel
+        "warning": "", 
         "wiki_url": "",
         "tracker_url": "",
         "support": "COMMUNITY",
